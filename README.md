@@ -47,6 +47,8 @@ Our approach focuses on **targeted interventions** based on player data and psyc
 Establish a precise data baseline to identify when and where players leave the game.  
 
 **Metrics to track:**  
+<img src="assests/img/metrics.png" alt="Metrics">
+
 - **DAU (Daily Active Users):** Unique players per day. Shows immediate game health.  
 - **WAU (Weekly Active Users):** Unique players per 7 days. Reflects medium-term engagement.  
 - **Churn Rate:** Percentage of players who stop playing during a period. Core problem we aim to reduce.  
