@@ -101,5 +101,5 @@ Continuous monitoring and adaptation:
 - **Long-Term Loyalty:** Reduce frustration and replace repetitive tasks with rewarding events, sustaining the game for years.
 
 ---
-
+[Back to Portfolio](https://meghana-ps07.github.io/portfolio/) 
 
