@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmDale: Market Position & Niche Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .pyramid-step {
+            width: 100%;
+            padding: 1rem 0;
+            margin-top: -10px; 
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            border: 2px solid white; 
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12 bg-[#073B4C] text-white p-6 rounded-xl shadow-xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight">FarmDale: Market Position & Niche Strategy</h1>
+            <p class="text-lg text-gray-300">Defining the Core Identity, Audience, and Competitive Edge in the F2P Mobile Space.</p>
+        </header>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            
+            <div class="bg-white rounded-xl shadow-lg p-6 md:col-span-2">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-4 border-b pb-2 border-gray-200">1. The Core Identity & Genre Breakdown</h2>
+                <p class="text-gray-600 mb-6">FarmDale's identity is a hybrid genre mix, primarily rooted in farming but supported by strong secondary mechanics. This multi-layered approach provides variety and depth, differentiating it from simple clicker or resource management games.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+                    <div class="lg:col-span-1 text-center">
+                        <p class="text-7xl font-extrabold text-[#06D6A0]">3-in-1</p>
+                        <p class="text-xl text-[#073B4C] mt-2 font-semibold">Hybrid Genre Approach</p>
+                    </div>
+                    <div class="lg:col-span-2">
+                        <div class="chart-container h-64 md:h-72">
+                            <canvas id="genreCompositionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-4 border-b pb-2 border-gray-200">2. Target Audience Profile</h2>
+                <p class="text-gray-600 mb-6">The audience profile targets players seeking relaxation and an escape, intentionally avoiding the high-stakes pressure found in strategy or PvP titles. This is the foundation of the 'stress-free' competitive edge.</p>
+                <div class="flex flex-col items-center mt-8">
+                    <div class="pyramid-step bg-[#FFD166] w-5/6">Casual Gamers (Broadest Base)</div>
+                    <div class="pyramid-step bg-[#118AB2] w-4/6">Enjoy Relaxing Gameplay</div>
+                    <div class="pyramid-step bg-[#073B4C] w-3/6">Seek Low-Pressure Progression</div>
+                    <p class="mt-4 text-[#073B4C] font-semibold">Audience Funnel</p>
+                </div>
+            </div>
+
+            
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-4 border-b pb-2 border-gray-200">3. Core Appeal Drivers</h2>
+                <p class="text-gray-600 mb-6">Visualizing the relative importance of the four core game mechanics that drive long-term player satisfaction and retention.</p>
+                <div class="chart-container h-64 md:h-72">
+                    <canvas id="coreAppealChart"></canvas>
+                </div>
+            </div>
+            
+            
+            <div class="bg-white rounded-xl shadow-lg p-6 md:col-span-2">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-4 border-b pb-2 border-gray-200">4. Monetization Space: IAP Focus</h2>
+                <p class="text-gray-600 mb-6">Monetization is driven by in-app purchases (IAPs) focused on two main psychological triggers: immediate gratification (speed) and personalization (cosmetics). The space excludes forced ads or premium pricing.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+                    <div class="chart-container h-64 md:h-72">
+                        <canvas id="monetizationFocusChart"></canvas>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start p-3 bg-gray-50 rounded-lg border-l-4 border-[#FF6B6B]">
+                            <span class="text-2xl mr-3">⚡</span>
+                            <div>
+                                <h3 class="font-bold text-[#073B4C]">Faster Progress IAPs</h3>
+                                <p class="text-sm text-gray-600">Skipping wait times, buying materials, speeding up resource collection.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start p-3 bg-gray-50 rounded-lg border-l-4 border-[#06D6A0]">
+                            <span class="text-2xl mr-3">🎨</span>
+                            <div>
+                                <h3 class="font-bold text-[#073B4C]">Cosmetic Customization IAPs</h3>
+                                <p class="text-sm text-gray-600">Decorations, unique skins, and visual enhancements for the farm and characters.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="bg-white rounded-xl shadow-lg p-6 md:col-span-2">
+                <h2 class="text-3xl font-bold text-[#118AB2] mb-4 border-b pb-2 border-gray-200">5. Competitive Edge: The Differentiator</h2>
+                <p class="text-gray-600 mb-6">FarmDale competes not on speed or aggressive skill, but on atmosphere and community. Its core value proposition is being a digital haven for relaxation and creativity.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center mt-6">
+                    <div class="bg-[#06D6A0] text-white p-4 rounded-xl shadow-md text-center">
+                        <h3 class="text-xl font-bold mb-2">FarmDale Niche</h3>
+                        <p class="font-light">Stress-Free Gameplay (Social & Creative)</p>
+                    </div>
+                    
+                    <div class="flex justify-center md:flex-col items-center">
+                        <div class="text-4xl text-[#118AB2] font-extrabold">&harr;</div>
+                        <p class="hidden md:block text-xl font-bold text-[#073B4C] mt-2">CONTRAST</p>
+                    </div>
+
+                    <div class="bg-[#FF6B6B] text-white p-4 rounded-xl shadow-md text-center">
+                        <h3 class="text-xl font-bold mb-2">Competitor Niche</h3>
+                        <p class="font-light">High-Pressure & Competitive Games</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <p class="text-sm text-gray-500">The strategy is to capture players who explicitly reject the highly competitive genre space.</p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>Data visualization for market strategy and competitive analysis.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        
+        const FONT_COLOR = '#073B4C';
+        Chart.defaults.color = FONT_COLOR;
+        Chart.defaults.borderColor = 'rgba(7, 59, 76, 0.1)';
+
+        function processLabel(label) {
+            if (label.length <= 16) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > 16) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        }
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            return Array.isArray(label) ? label.join(' ') : label;
+        };
+
+        const SHARED_TOOLTIP_OPTIONS = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            }
+        };
+
+        
+        const genreCompositionCtx = document.getElementById('genreCompositionChart').getContext('2d');
+        new Chart(genreCompositionCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Farming Focus', 'Simulation Management', 'Adventure / Exploration'],
+                datasets: [{
+                    label: 'Genre Composition',
+                    data: [50, 30, 20], 
+                    backgroundColor: [
+                        '#06D6A0', 
+                        '#FFD166', 
+                        '#118AB2', 
+                    ],
+                    borderColor: '#ffffff',
+                    borderWidth: 4,
+                }]
+            },
+            options: {
+                ...SHARED_TOOLTIP_OPTIONS,
+                maintainAspectRatio: false,
+                plugins: {
+                    ...SHARED_TOOLTIP_OPTIONS.plugins,
+                    legend: {
+                        position: 'right',
+                    }
+                }
+            }
+        });
+
+        
+        const appealCtx = document.getElementById('coreAppealChart').getContext('2d');
+        new Chart(appealCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Creative Farming', 'Crafting & Production', 'Exploration & Questing', 'Social Interactions'],
+                datasets: [{
+                    label: 'Importance Score (1-10)',
+                    data: [9, 8, 7, 6], 
+                    backgroundColor: 'rgba(255, 107, 107, 0.4)', 
+                    borderColor: '#FF6B6B',
+                    pointBackgroundColor: '#FF6B6B',
+                    borderWidth: 2,
+                    pointRadius: 5
+                }]
+            },
+            options: {
+                ...SHARED_TOOLTIP_OPTIONS,
+                maintainAspectRatio: false,
+                elements: {
+                    line: {
+                        borderWidth: 3
+                    }
+                },
+                scales: {
+                    r: {
+                        angleLines: {
+                            display: false
+                        },
+                        suggestedMin: 0,
+                        suggestedMax: 10,
+                        pointLabels: {
+                            color: FONT_COLOR,
+                            font: {
+                                size: 12
+                            },
+                            callback: function(label) {
+                                return processLabel(label);
+                            }
+                        },
+                        ticks: {
+                            display: false
+                        }
+                    }
+                },
+                plugins: {
+                    ...SHARED_TOOLTIP_OPTIONS.plugins,
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        
+        const monetizationCtx = document.getElementById('monetizationFocusChart').getContext('2d');
+        new Chart(monetizationCtx, {
+            type: 'bar',
+            data: {
+                labels: [processLabel('Monetization Mix')],
+                datasets: [{
+                    label: 'Faster Progress IAPs',
+                    data: [65], 
+                    backgroundColor: '#FF6B6B', 
+                }, {
+                    label: 'Cosmetic Customization IAPs',
+                    data: [35], 
+                    backgroundColor: '#06D6A0', 
+                }]
+            },
+            options: {
+                ...SHARED_TOOLTIP_OPTIONS,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        stacked: true,
+                        max: 100,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%'
+                            }
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        grid: {
+                            display: false
+                        }
+                    }
+                },
+                plugins: {
+                    ...SHARED_TOOLTIP_OPTIONS.plugins,
+                    legend: {
+                        position: 'bottom',
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
