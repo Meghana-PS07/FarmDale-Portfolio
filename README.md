@@ -61,6 +61,8 @@ Establish a precise data baseline to identify when and where players leave the g
 #### **2. Identify Pain Points**
 Focus on the **3 major player frustrations** that lead to quitting:
 
+<img src="assests/img/painpoints.png" alt="Metrics">
+
 - **Long waiting times for crops/buildings:** Aggressive time-gating can cause impatience and boredom.  
 - **Confusing tutorials or unclear progression:** Players may feel lost after the initial tutorial.  
 - **Resource shortages limiting gameplay:** Poorly balanced loops force repetitive grinding and frustration.
