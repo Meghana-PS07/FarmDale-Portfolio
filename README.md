@@ -25,7 +25,7 @@ The primary objective is to **enhance the player experience during risky mid-gam
 |------------|------------|---------------|
 | Player Retention | +20% Increase | Next 3 Months |
 
-<img src="assets/img/Objective.png" alt="Goal & Executive Summary">
+<img src="assests/img/Objective.png" alt="Goal & Executive Summary">
 
 ---
 
