@@ -25,7 +25,7 @@ The primary objective is to **enhance the player experience during risky mid-gam
 |------------|------------|---------------|
 | Player Retention | +20% Increase | Next 3 Months |
 
-<img src="assests/img/Objective.png" alt="Goal & Executive Summary">
+<img src="assests/img/Objective.png" alt="Objective">
 
 ---
 
@@ -34,6 +34,8 @@ The primary objective is to **enhance the player experience during risky mid-gam
 - **Sustainable Growth:** Retention is fundamental for success in free-to-play (F2P) games. Improved retention increases **lifetime value (LTV)** of each player.  
 - **Revenue Uplift:** Higher engagement creates more opportunities for **in-app purchases (IAPs)**.  
 - **Strategic Focus:** The goal is **S.M.A.R.T.** (Specific, Measurable, Achievable, Relevant, Time-bound), giving clear direction for the product team.
+
+<img src="assests/img/goal.png" alt="Goals">
 
 ---
 
